@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+html{
+    display: flex;
+    margin: 0 auto;
+    width: 1400px;
+    background-color: rgb(171, 134, 78);
+}
+body{
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: rgb(171, 134, 78);
+}
+a{
+    color: rgb(73, 138, 60);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.nav li{
+    padding: 25px 100px 25px 100px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav li:hover{
+    background-color: rgb(56, 56, 56);
+}
+.Header{
+    padding: 20px;
+}
+.Header .image{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+main{
+    padding: 0 15px 15px 15px;
+    display: flex;
+}
+.Main1 a{
+    text-decoration: none;
+}
+.Main1 h2{
+    color: rgb(171, 134, 78);
+    font-size: 50px;
+}
+.Main1 p{
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.Main2{
+    margin-top: 15px;
+}
+.Main2 h3{
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(58, 126, 103);
+}
+.Main2 li, ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.Main2 li{
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.Main2 a{
+    text-decoration: none;
+    color: rgb(73, 138, 60);
+}
+.Main2 .SR{
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(243, 243, 243);
+}
+
+.SR p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.Footer{
+    margin: 0 15px 15px 15px;
+    background-color: rgb(166, 228, 154);
+}
+
+footer h2{
+    text-align: center;
+    padding: 45px;
+    font-size: 24px;
+}
